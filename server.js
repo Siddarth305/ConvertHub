@@ -6,7 +6,7 @@ import fetch from 'node-fetch';
 const app = express();
 const PORT = 5000;
 
-const geminiApiKey = "AIzaSyBu8RCHOHPgJFPrC_2A8wIj1NMDVVIV-_c";
+const geminiApiKey = "";//api key here
 
 if (!geminiApiKey) {
   console.error("❌ GEMINI_API_KEY is missing in .env file.");
